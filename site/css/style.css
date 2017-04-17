@@ -18,6 +18,10 @@
     font-size: 16px;
     padding-top: 35px;
 }
+.img-caousel-item{
+    width: 100% !important;
+    height: 700px !important;
+}
 .services{
     padding: 75px 0px;
 }
@@ -116,10 +120,30 @@ footer form {
     font-size: 30px;
     padding: 56px;
 }
+.image-post {
+    background-repeat: round;
+    width: 42%;
+    height: 240px;
+    float: left;
+    border-radius: 5px;
+    margin: 10px;
+}
 /**responsive way**/
-@media (max-width: 768px) {
-    .carousel-inner .item img {
-        height: 340px;
+@media (max-width: 409px) {
+    .image-post {
+        background-repeat: round;
+        width: 93%;
+        height: 240px;
+        float: left;
+        border-radius: 5px;
+        margin: 10px;
+    }
+}
+@media (max-width: 600px) {
+    .img-caousel-item{
+        width: 100% !important;
+        height: 350px !important;
     }
 }
 /**responsive way**/
+
