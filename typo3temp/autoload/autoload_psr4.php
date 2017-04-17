@@ -5,4 +5,5 @@
 $typo3InstallDir = PATH_site;
 
 return array(
+    'DmitryDulepov\\Realurl\\' => array($typo3InstallDir . 'typo3conf/ext/realurl/Classes'),
 );
