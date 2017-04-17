@@ -1,0 +1,33 @@
+<div id="container">
+	<!-- Logo & Menu -->
+	<div id="container_header_bg" class="container-fluid">
+		<div class="row">
+			<nav class="navbar navbar-default container align-self-center" role="navigation">				
+				<!-- Logo -->
+				<div id="container_header_logo">
+					<f:render partial="header_logo" arguments="{_all}" />
+				</div><!-- Logo -->				
+				<!-- container_header_menu -->
+				<div id="container_header_menu">
+					<div id="header_menu">
+						<f:cObject typoscriptObjectPath="lib.header_menu" />
+					</div><!-- header_menu -->
+				</div><!-- container_header_menu -->				
+			</nav>
+		</div>
+    </div><!-- /Logo & Menu -->
+	
+	
+	
+	
+	<!-- container_content -->
+    <div id="container_content">
+        <f:render section="content" />
+    </div><!-- /container_content -->
+	
+	<!-- container_footer -->
+    <div id="container_footer">
+        <f:render partial="footer" arguments="{_all}" />
+    </div><!-- /container_footer -->
+	
+</div><!-- /container -->
